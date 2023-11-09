@@ -3,7 +3,7 @@
     --hot-pink: color-mix(in srgb, oklch(59.91% .239 8.14), var(--full-contrast) 70%);
     --orange-red: color-mix(in srgb, oklch(63.32% .24 31.68), var(--full-contrast) 60%);
     --red-to-orange-horizontal-gradient: linear-gradient(90deg,  var(--hot-pink) 0%, var(--orange-red) 100% );
-    --fallback-pink:rgb(176, 27, 114);
+    --fallback-pink: #e5acb4;
 }
 
 body {
