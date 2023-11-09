@@ -6,7 +6,7 @@ code {
     background: linear-gradient(to right, red, orange);
     background-clip: text;
     color: transparent;
-    -webkit-background-clip: transparent;
+    -webkit-background-clip: text;
     padding: 0.25rem;
 }
 code::before {
