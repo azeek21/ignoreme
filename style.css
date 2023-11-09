@@ -1,0 +1,21 @@
+body {
+    background: #111111;
+}
+code {
+    position: relative;
+    background: linear-gradient(to right, red, orange);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: transparent;
+    padding: 0.25rem;
+}
+code::before {
+    content: "";
+    inset: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+    background: #222;
+    z-index: -1;
+}
