@@ -1,9 +1,18 @@
+:root {
+    --full-contrast: white;
+    --hot-pink: color-mix(in srgb, oklch(59.91% .239 8.14), var(--full-contrast) 70%);
+    --orange-red: color-mix(in srgb, oklch(63.32% .24 31.68), var(--full-contrast) 60%);
+    --red-to-orange-horizontal-gradient: linear-gradient(90deg,  var(--hot-pink) 0%, var(--orange-red) 100% )
+}
+
 body {
     background: #111111;
 }
+
+
 code {
     position: relative;
-    background: linear-gradient(to right, red, orange);
+    background: var(--red-to-orange-horizontal-gradient);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
