@@ -14,7 +14,8 @@ body {
 
 code {
     position: relative;
-    background: var(--red-to-orange-horizontal-gradient);
+    /* background-color: red; */
+    background: var(--red-to-orange-horizontal-gradient, red);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
@@ -33,5 +34,5 @@ code::before {
 }
 
 .code__with__fallback {
-    background-color: var(--fallback-pink);
+    /* background-color: var(--fallback-pink); */
 }
