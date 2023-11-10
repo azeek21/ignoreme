@@ -14,8 +14,8 @@ body {
 
 code {
     position: relative;
-    /* background-color: red; */
     background: var(--red-to-orange-horizontal-gradient, red);
+    background-color: blue;
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
